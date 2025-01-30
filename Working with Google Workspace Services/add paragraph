@@ -1,0 +1,2 @@
+const body = doc.getBody();
+body.appendParagraph("Hello World").setBold(true)
