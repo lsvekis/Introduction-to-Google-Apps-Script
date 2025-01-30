@@ -1,0 +1,19 @@
+if...else:
+
+if (condition) {
+  // code if condition is true
+} else {
+  // code if condition is false
+}
+switch:
+
+switch (expression) {
+  case value1:
+    // code block
+    break;
+  case value2:
+    // code block
+    break;
+  default:
+    // default code block
+}
