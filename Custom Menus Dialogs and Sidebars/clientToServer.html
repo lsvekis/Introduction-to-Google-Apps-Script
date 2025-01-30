@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head><base target="_top"></head>
+  <body>
+    <button onclick="sendDataToServer()">Send Data</button>
+    <script>
+      function sendDataToServer() {
+        google.script.run.receiveClientData("Hello from the client!");
+        alert("Data sent to server.");
+      }
+    </script>
+  </body>
+</html>
