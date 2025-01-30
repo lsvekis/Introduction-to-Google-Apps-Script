@@ -1,0 +1,4 @@
+ScriptApp.newTrigger("myFunction")
+  .timeBased()
+  .everyHours(1)
+  .create();
