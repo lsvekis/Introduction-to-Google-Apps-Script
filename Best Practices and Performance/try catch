@@ -1,0 +1,5 @@
+try {
+  // risky operation
+} catch (error) {
+  // handle error
+}
