@@ -1,0 +1,1 @@
+const response = UrlFetchApp.fetch("https://api.example.com/data");
