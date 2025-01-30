@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head><base target="_top"></head>
+  <body>
+    <div id="quoteArea">Click for a random quote!</div>
+    <button onclick="getRandomQuote()">Get Quote</button>
+    <script>
+      function getRandomQuote() {
+        google.script.run
+          .withSuccessHandler(displayQuote)
+          .getQuote();
+      }
+      function displayQuote(quote) {
+        document.getElementById("quoteArea").innerText = quote;
+      }
+    </script>
+  </body>
+</html>
